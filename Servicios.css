@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #0d1b2a; /* Azul oscuro profundo */
+    color: #e0f7fa; /* Texto en celeste claro */
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    display: inline-block;
+    margin: 20px;
+    font-size: 20px;
+    color: #e0f7fa;
+    text-decoration: none;
+    border: 2px solid #00bcd4; /* Cian */
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: transparent;
+    transition: 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #00bcd4;
+    color: #0d1b2a;
+  }
+  

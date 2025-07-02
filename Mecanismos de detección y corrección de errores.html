@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mecanismos de Detección y Corrección de Errores</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #eef2f7;
+      color: #333;
+    }
+
+    header {
+      background-color: #34495e;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 850px;
+      margin: 30px auto;
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    h1, h2 {
+      color: #0d1b2a;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .seccion {
+      margin-bottom: 25px;
+    }
+
+    .mecanismo {
+      margin-bottom: 15px;
+    }
+
+    .mecanismo span {
+      font-weight: bold;
+      color: #2980b9;
+    }
+
+    .imagen-abajo {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .imagen-abajo img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+      margin-top: 40px;
+      padding-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mecanismos de Detección y Corrección de Errores</h1>
+  </header>
+
+  <div class="container">
+    <section class="seccion">
+      <h2>Detección de Errores</h2>
+      <p>Estos métodos permiten verificar si los datos transmitidos han llegado correctamente. Algunos de los más utilizados son:</p>
+      <div class="mecanismo">
+        <span>CRC (Cyclic Redundancy Check):</span> detecta errores complejos en bloques de datos. Muy utilizado en redes y discos.
+      </div>
+      <div class="mecanismo">
+        <span>Checksum:</span> calcula un valor de verificación a partir de los datos enviados. Si no coincide al recibir, hay error.
+      </div>
+    </section>
+
+    <section class="seccion">
+      <h2>Corrección de Errores</h2>
+      <p>Permiten no solo detectar errores, sino también corregirlos automáticamente o solicitar el reenvío:</p>
+      <div class="mecanismo">
+        <span>Código de Hamming:</span> permite detectar y corregir errores de un solo bit sin necesidad de retransmisión.
+      </div>
+      <div class="mecanismo">
+        <span>ARQ (Automatic Repeat reQuest):</span> detecta errores y solicita que los datos sean reenviados desde el origen.
+      </div>
+    </section>
+
+    <div class="imagen-abajo">
+      <img src="imagen.jpg" alt="Ejemplo de detección y corrección de errores">
+    </div>
+	
+	 <a href="Pagina-Redes II.html" class="volver">Volver al inicio</a>
+	
+  </div>
+
+  <footer>
+    &copy; 2025 - Página informativa de Redes
+  </footer>
+
+</body>
+</html>
